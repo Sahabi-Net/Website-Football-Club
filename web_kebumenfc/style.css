@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(225, 225, 255);
+}
+.navbar{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.berita a:hover,
+.galeri a:hover,
+.sosmed a:hover{
+    color: white; 
+}
+.navbar-nav, .nav-link{
+    font-family: sans-serif;
+    color: white;
+}
+.banner{
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+/*Info Panel*/
+.info-panel{
+    color: #021F7B;
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);    
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: -45px;
+    height: 350px;
+}
+.klub{
+    font-size: 10px;
+}
+
+/* TIM */
+.kotak{
+    background-color: #021F7B;
+    color: white;
+    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.kotak h3{
+    font-size: 15px;
+}
+.dll{
+    margin-top: -50px;
+}
+.dll a{
+    color: white;
+}
+.card, .card img{
+    border: 0;
+    border-radius: 0;
+}
+/*Footer*/
+.footer{
+    padding: 10px;
+}
+.sosmed a{
+    padding: 10px;
+}
+
+/*Login*/
+.login{
+    margin: 0 auto;
+    background: white;
+    color: #021F7B;
+}
+.box input{
+    height: 50px;
+    width: 400px;
+}
+.box button{
+    border-radius: 0;
+    background: #021F7B;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 50px;
+}
+.box button:hover{
+    background: #021F7B;
+    color: white;
+}
+
+
+/* Dekstop Version*/
+@media (min-width: 992px) {
+    .navbar-brand img{
+        width: 50px;
+    }
+    .navbar-brand, .nav-link{
+        color: white;
+    }
+    .nav-link:hover{
+        content: '';
+        border-bottom: 2px solid white;
+        margin-bottom: -2px;
+    }
+    .info-panel{
+        margin-top: 350px;
+        height: 350px;
+    }
+    .info-panel img{
+        width: 70px;
+    }
+    .tim-1{
+        margin-left: 100px;
+    }
+    .tim-2{
+        margin-right: 100px;
+    }
+    .klub{
+        margin-left: 10px;
+        font-size: 12px;
+    } 
+    .kotak h3{
+        font-size: 30px;
+    }
+    .galeri a, .berita a{
+        font-size: 16px;
+        font-weight: bold;
+        float: right; 
+    }
+    .dll{
+        display: block;
+        margin-top: -80px;
+        margin-bottom: 80px;
+    }
+    /*login*/
+    .login{
+        margin: 0 auto;
+        background: white;
+        color: #021F7B;
+        width: 700px;
+    }
+}
